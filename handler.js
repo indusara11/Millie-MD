@@ -73,7 +73,7 @@ module.exports = {
                                 },
                message: {
                             documentMessage: {
-                            title: 'ᴍɪʟʟɪᴇ-ᴍᴅ', 
+                            title: 'ASIATA-MD', 
                             jpegThumbnail: thumburl
                                   }
                                 }
