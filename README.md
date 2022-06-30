@@ -16,7 +16,7 @@
 #### Please do Follow The Order and note that your github account must be 6 Months Older in order to deploy this on railway
   
    
-   [![Deploy on Railway](https://railway.app/button.svg)](https://neeraj-x0.github.io/Millie-MD/)
+   [![Deploy on Railway](https://railway.app/button.svg)](https://mrsanon1.github.io/Millie-MD/)
 
 <br>
   
@@ -30,7 +30,7 @@
 
   Copy this link and paste it on your browser Change Neeraj-X0 to your github username <br>
 ```
-  https://heroku.com/deploy?template=https://github.com/Neeraj-x0/Millie-MD
+  https://heroku.com/deploy?template=https://github.com/mrsanon1/Millie-MD
 ```  
       
 <div align="left">
