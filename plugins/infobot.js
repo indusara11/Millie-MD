@@ -1,7 +1,7 @@
 let handler = async (m, { conn, command, usedPrefix, text }) => {
   try{let fetch = require('node-fetch')
   let _uptime = process.uptime() * 1000
-  let a = require('moment-timezone').tz('Asia/Kolkata').format('HH:mm:ss') 
+  let a = require('moment-timezone').tz('Asia/Colombo').format('HH:mm:ss') 
   let d = new Date(new Date + 3600000)
   let locale = 'in'
     let week = d.toLocaleDateString(locale, { weekday: 'long' })
