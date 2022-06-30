@@ -43,22 +43,22 @@ global.APIKeys = { // APIKey Here
 
  
 global.ucpn = ''
-global.linkgc = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
-global.linkig = 'https://www.instagram.com/neer_j_  '
-global.linkyt = 'https://www.youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA'
-global.linkfb = 'https://fb.watch/aYv0jAffAO'
-global.git = 'https://github.com/Neeraj-x0'
-global.web1 = 'https://neeraj-x0.github.io/'
-global.url = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
+global.linkgc = 'https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb'
+global.linkig = 'https://www.instagram.com/mrsanon  '
+global.linkyt = 'https://www.youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPd'
+global.linkfb = 'https://fb.watch/aYv0jAffA'
+global.git = 'https://github.com/mrsanon'
+global.web1 = 'https://Thisan04.github.io/'
+global.url = 'https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb'
 
 //HEROKU  VARS
 global.thumburl = process.env.IMAGE || 'https://i.pinimg.com/474x/de/bd/b2/debdb24645169bf95eecd49f3144315f.jpg'
-global.packname = process.env.PACKNAME ||'ᴍɪʟʟɪᴇ-ᴍᴅ'
-global.author = process.env.AUTHOR ||'ɴᴇᴇʀᴀᴊ-x0'
-global.name = 'Millie MULTI-DEVICE'
+global.packname = process.env.PACKNAME ||'ᴀꜱɪᴀᴛᴀ'
+global.author = process.env.AUTHOR ||'ᴛʜɪꜱᴀɴ'
+global.name = 'ASIATA MULTI-DEVICE'
 global.session = process.env.SESSION_ID|| ''
-global.wm = process.env.WATERMARK|| 'ᴍɪʟʟɪᴇ-ᴍᴅ'
-global.owner_name = process.env.OWNER_NAME || 'Neeraj-x0'
+global.wm = process.env.WATERMARK|| 'ꜱʟ-ᴀꜱɪᴀᴛᴀ'
+global.owner_name = process.env.OWNER_NAME || 'THISAN'
 global.logsmsg = convertToBool(process.env.LOGS)|| false
 
 function convertToBool(text, fault = 'true') {
@@ -71,7 +71,7 @@ function convertToBool(text, fault = 'true') {
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = 'neer_j_'
+global.bodlink = 'Thisan'
 global.wait = '_Please Wait_'
 global.eror = '_Something went wrong please try again later_'
 global.dtu = 'BOT HELP GROUP'
