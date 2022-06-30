@@ -2,7 +2,7 @@
   "name": "Millie-MD",
   "logo": "https://raw.githubusercontent.com/Neeraj-x0/Millie/main/Millie/millie.jpg",
   "description": "WhatsApp Bot",
-  "repository": "https://github.com/Neeraj-x0/Millie-MD",
+  "repository": "https://github.com/mrsanon1/Millie-MD",
   "keywords": ["bot","whatsapp","whatsapp-bot"],
   "env": {
  "SESSION_ID": {
