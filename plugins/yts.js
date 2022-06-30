@@ -9,22 +9,22 @@ let handler = async (m, { conn, usedPrefix, command, text, args }) => {
   let teks = [...video, ...channel].map(v => {
     switch (v.type) {
       case 'video': return `    
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Title:* ${v.title}
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Duration:* ${v.durationH}
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Uploaded:* ${v.publishedTime}
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Viewers:* ${v.viewH} 
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Link:* ${v.url}
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Title:* ${v.title}
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Duration:* ${v.durationH}
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Uploaded:* ${v.publishedTime}
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Viewers:* ${v.viewH} 
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Link:* ${v.url}
 `
       case 'channel': return `
-߷ *Channel:* ${v.channelName}
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Subscriber:* ${v.subscriberH} 
-߷ *Total Video:* ${v.videoCount} video
-󠄌󠄔󠄛󠄛󠄋󠄢߷ *Link:* ${v.url}
+💫 *Channel:* ${v.channelName}
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Subscriber:* ${v.subscriberH} 
+💫 *Total Video:* ${v.videoCount} video
+󠄌󠄔󠄛󠄛󠄋󠄢💫 *Link:* ${v.url}
 `
     }
   }).filter(v => v).join('\n==========================')
   try {
-  conn.sendMedia(m.chat, anu, m, {caption: `🔎 *YouTube Search*\n`+teks, jpegThumbnail: await(await fetch(anu)).buffer()})
+  conn.sendMedia(m.chat, anu, m, {caption: `🔎 *SL-ASIATA YTS🇱🇰*\n`+teks, jpegThumbnail: await(await fetch(anu)).buffer()})
   } catch {
     throw teks
   }
