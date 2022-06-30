@@ -13,15 +13,15 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
     if(!vide) return conn.sendB(m.chat, novid, wm, null, [[await conn.trans(lang, 'Try again').catch(async _ => await conn.trans2(lang, 'Try again')), `.play ${teks} Heat waves`]], m) 
     let { authorName, title, url, thumbnail, durationH, viewH, publishedTime } = vide
     let capt = ` 
-߷ *Title:* ${title}
+💥 *Title:* ${title}
 
-߷ *Duration:* ${durationH}
+💥 *Duration:* ${durationH}
 
-߷ *Viewers:* ${viewH}
+💥 *Viewers:* ${viewH}
 
-߷ *Uploaded:* ${publishedTime}
+💥 *Uploaded:* ${publishedTime}
 
-߷ *Channel:* ${authorName}`
+💥 *Channel:* ${authorName}`
 
     conn.sendTBI2(m.chat, capt, wm,thumbnail,"Play on Youtube", url,'🎧 Audio 🎧',`${usedPrefix}psp ${url}`, '📽 Video 📽',`${usedPrefix}ytv ${url}`,m,{     contextInfo: {
       mentionedJid: [m.sender],
