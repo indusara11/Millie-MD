@@ -9,7 +9,7 @@ let moment = require('moment-timezone')
 const { default: Users } = require('node-os-utils/lib/users')
 const defaultMenu = {
   before: `╭────────────────╮
-          ✪  *ᴍɪʟʟɪᴇ* ✪           
+          ✪  *αʂιαƚα* ✪           
 ╰────────────────╯
      
 `.trimStart(),
@@ -178,89 +178,89 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
               {
                 "rows": [
                   {
-                    "title": `𝐌𝐈𝐋𝐋𝐈𝐄`,
+                    "title": `αѕιαтα🇱🇰`,
                     "description": "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
                     "rowId": ".git"
                   },
                   {
-                    "title": "𝐒𝐓𝐈𝐂𝐊𝐄𝐑",
+                    "title": "ѕтι¢кєя💃",
                     "description": "",
                     "rowId": ".lst stiker"
                   },
                    {
-                    "title": "𝐗𝐏",
+                    "title": "χρ💃",
                     "description": "",
                     "rowId": ".lst xp"
   
                   },  {
-                    "title": "𝐕𝐈𝐃𝐄𝐎 𝐌𝐀𝐊𝐄𝐑",
+                    "title": "νι∂єσ мα¢кєя💃",
                     "description": "",
                     "rowId": ".lst videomaker"
   
                   }, { 
-                  "title": "𝐀𝐍𝐈𝐌𝐄",
+                  "title": "αηιмє💃",
                   "description": "",
                   "rowId": ".lst anime"
                 },  {
-                    "title": "𝐐𝐎𝐔𝐓𝐄𝐒",
+                    "title": "qσυтєѕ💃",
                     "description": "",
                     "rowId": ".lst quote"
                   }, {
-                    "title": "𝐆𝐑𝐎𝐔𝐏",
+                    "title": "gяσυρ💃",
                     "description": "",
                     "rowId": ".lst grup"
                   }, {
-                    "title": "𝐏𝐑𝐄𝐌𝐈𝐔𝐌",
+                    "title": "ρяємιυм🏅",
                     "description": "",
                     "rowId": ".lst premium"
                   }, {
-                    "title": "𝐈𝐍𝐓𝐄𝐑𝐍𝐄𝐓",
+                    "title": "ιηтєяηєт💃",
                     "description": "",
                     "rowId": ".lst internet"
                   }, {
-                    "title": "𝐀𝐍𝐎𝐍𝐘𝐌𝐎𝐔𝐒",
+                    "title": "αησηумσυѕ🕺",
                     "description": "",
                     "rowId": ".lst anonymous"
                   }, {
-                    "title": "𝐌𝐀𝐆𝐈𝐂 𝐒𝐇𝐄𝐋𝐋",
+                    "title": "мαgι¢ ѕнєℓℓ💃",
                     "description": "",
                     "rowId": ".lst magicshell"
                   }, {
-                    "title": "𝐖𝐑𝐈𝐓𝐄 𝐀𝐍𝐃 𝐋𝐎𝐆𝐎",
+                    "title": "ωяιтє αη∂ ℓσgσ💃",
                     "description": "",
                     "rowId": ".lst nulis"
                   }, {
-                    "title": "𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃𝐄𝐑",
+                    "title": "∂σωηℓσα∂єя🥀",
                     "description": "",
                     "rowId": ".lst downloader"
                   }, {
-                    "title": "𝐓𝐎𝐎𝐋𝐒",
+                    "title": "тσσℓѕ💃",
                     "description": "",
                     "rowId": ".lst tools"
                   }, {
-                    "title": "𝐀𝐔𝐃𝐈𝐎 𝐄𝐃𝐈𝐓𝐎𝐑",
+                    "title": "αυ∂ισ є∂ιтσя💃",
                     "description": "",
                     "rowId": `.lst audio`
                   }, {
-                    "title": "𝐅𝐔𝐍",
+                    "title": "ƒυη💃",
                     "description": "",
                     "rowId": ".lst fun"
                   },
                   {
-                    "title": "𝐆𝐀𝐌𝐄𝐒",
+                    "title": "gαмєѕ💃",
                     "description": "",
                     "rowId": ".lst game"
   
                   }, {
-                    "title": "𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄",
+                    "title": "∂αтαвαѕє💃",
                     "description": "",
                     "rowId": ".lst database"
                   },{
-                    "title": "𝐎𝐖𝐍𝐄𝐑",
+                    "title": "σωηєя💃",
                     "description": "",
                     "rowId": ".lst owner"
                   }, {
-                    "title": "𝐀𝐃𝐌𝐈𝐍",
+                    "title": "α∂мιη💃",
                     "description": "",
                     "rowId": ".lst admin"
                   }
@@ -327,7 +327,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-  await conn.sendTBI2(m.chat, text.trim(), wm,thumburl,`sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `, `https://github.com/Neeraj-x0/Millie-MD`, `ᴏᴡɴᴇʀ`, `${_p}owner`, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `.lst all`,m)
+  await conn.sendTBI2(m.chat, text.trim(), wm,thumburl,`sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `, `https://github.com/mrsanon`, `ᴏᴡɴᴇʀ`, `${_p}owner`, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `.lst all`,m)
  
 }catch(e){
   conn.reply(m.chat,`${e}`)
@@ -373,16 +373,16 @@ function ucapan() {
   const time = moment.tz('Asia/Kolkata').format('HH')
   res = "ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ  sʟᴇᴇᴘ ʟᴜᴠ ᴜ<3"
   if (time >= 4) {
-    res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ"
+    res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🥀"
   }
   if (time > 10) {
-    res = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ"
+    res = "ɢᴏᴏᴅ ᴀғᴛᴇʀɴᴏᴏɴ🕊️"
   }
   if (time >= 15) {
-    res = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ"
+    res = "ɢᴏᴏᴅ ᴇᴠᴇɴɪɴɢ🕺"
   }
   if (time >= 21) {
-    res = "ɢᴏᴏᴅ ɴɪɢʜᴛ"
+    res = "ɢᴏᴏᴅ ɴɪɢʜᴛ💫"
   }
   return res
 }
