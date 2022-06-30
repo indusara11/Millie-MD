@@ -16,7 +16,7 @@ let credit = `
 
 *AND MYSELF*
 `
- conn.sendTBI(m.chat, credit, wm, 'https://i.pinimg.com/474x/de/bd/b2/debdb24645169bf95eecd49f3144315f.jpg', `SOURCE CODE`, `https://github.com/Neeraj-x0/Millie-MD`, null, null, 'Menu', `${usedPrefix}menu`, null, null, null, null, m) 
+ conn.sendTBI(m.chat, credit, wm, 'https://i.pinimg.com/474x/de/bd/b2/debdb24645169bf95eecd49f3144315f.jpg', `SOURCE CODE`, `https://github.com/mrsanon`, null, null, 'Menu', `${usedPrefix}menu`, null, null, null, null, m) 
 }
 handler.help = ['credits']
 handler.tags = ['info']
