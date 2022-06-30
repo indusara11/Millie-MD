@@ -154,7 +154,7 @@ let handler = async (m, { conn, usedPrefix: _p,command, args }) => {
     let uptime = clockString(_uptime)
     let who = m.sender
          
-let aoa = `_ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʟɪsᴛ ᴍᴇɴᴜ, ᴇᴀsɪʟʏ ᴏʀɢᴀɴɪsᴇᴅ ғᴏʀ ʏᴏᴜ_ `.trim()
+let aoa = ` 🕺සියලුම විධාන මෙහි ඇත🇱🇰🏅 `.trim()
 let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(plugin => {
     return {
       help: Array.isArray(plugin.tags) ? plugin.help : [plugin.help],
