@@ -168,7 +168,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
     if (teks == '404') {
         const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
-            title: `Oi ${ucapan()}`,
+            title: `Hi ${ucapan()}`,
             description: aoa,
             buttonText: 'sᴇʟᴇᴄᴛ ᴍᴇɴᴜ',
             listType: 1,
@@ -179,89 +179,89 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
                 "rows": [
                   {
                     "title": `αѕιαтα🇱🇰`,
-                    "description": "sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ",
+                    "description": "𝚠𝚘𝚛𝚕𝚍 𝚋𝚎𝚜𝚝 𝚋𝚘𝚝🥀",
                     "rowId": ".git"
                   },
                   {
                     "title": "ѕтι¢кєя💃",
-                    "description": "",
+                    "description": "𝚖𝚊𝚔𝚎 𝚝𝚘 𝚜𝚝𝚒𝚌𝚔𝚎𝚛𝚜🥀",
                     "rowId": ".lst stiker"
                   },
                    {
                     "title": "χρ💃",
-                    "description": "",
+                    "description": "𝚐𝚎𝚝 𝚡𝚙 𝚖𝚎𝚗𝚞🥀",
                     "rowId": ".lst xp"
   
                   },  {
                     "title": "νι∂єσ мα¢кєя💃",
-                    "description": "",
+                    "description": "𝚖𝚊𝚗𝚢 𝚟𝚒𝚍𝚎𝚘 𝚎𝚍𝚒𝚝𝚝𝚒𝚗𝚐 𝚝𝚘𝚘𝚕𝚜 𝚊𝚝 𝚑𝚎𝚛𝚎🥀",
                     "rowId": ".lst videomaker"
   
                   }, { 
                   "title": "αηιмє💃",
-                  "description": "",
+                  "description": "𝚖𝚊𝚔𝚎 𝚝𝚘 𝚊𝚗𝚒𝚖𝚜🥀",
                   "rowId": ".lst anime"
                 },  {
                     "title": "qσυтєѕ💃",
-                    "description": "",
+                    "description": "𝚚𝚘𝚞𝚝𝚎𝚜🥀",
                     "rowId": ".lst quote"
                   }, {
                     "title": "gяσυρ💃",
-                    "description": "",
+                    "description": "𝚐𝚛𝚘𝚞𝚙𝚜 𝚙𝚊𝚗𝚗𝚎𝚕🥀",
                     "rowId": ".lst grup"
                   }, {
                     "title": "ρяємιυм🏅",
-                    "description": "",
+                    "description": "𝚐𝚎𝚝 𝚝𝚘 𝚊𝚜𝚒𝚊𝚝𝚊 𝚙𝚛𝚒𝚖𝚒𝚞𝚖🥀",
                     "rowId": ".lst premium"
                   }, {
                     "title": "ιηтєяηєт💃",
-                    "description": "",
+                    "description": "𝚒𝚗𝚝𝚎𝚛𝚗𝚎𝚝 𝚠𝚘𝚛𝚔𝚜🥀",
                     "rowId": ".lst internet"
                   }, {
                     "title": "αησηумσυѕ🕺",
-                    "description": "",
+                    "description": "𝚌𝚑𝚊𝚝 𝚠𝚒𝚝𝚑 𝚊𝚗𝚘𝚗🥀",
                     "rowId": ".lst anonymous"
                   }, {
                     "title": "мαgι¢ ѕнєℓℓ💃",
-                    "description": "",
+                    "description": "𝚠𝚘𝚗𝚍𝚎𝚛𝚏𝚞𝚕 𝚖𝚊𝚐𝚒𝚌𝚜🥀",
                     "rowId": ".lst magicshell"
                   }, {
                     "title": "ωяιтє αη∂ ℓσgσ💃",
-                    "description": "",
+                    "description": "𝚖𝚊𝚔𝚎 𝚕𝚘𝚐𝚘𝚎𝚜🥀",
                     "rowId": ".lst nulis"
                   }, {
                     "title": "∂σωηℓσα∂єя🥀",
-                    "description": "",
+                    "description": "𝚊𝚕𝚕 𝚍𝚘𝚠𝚗𝚕𝚘𝚊𝚍𝚎𝚛 𝚖𝚊𝚗𝚞🥀",
                     "rowId": ".lst downloader"
                   }, {
                     "title": "тσσℓѕ💃",
-                    "description": "",
+                    "description": "𝚎𝚟𝚎𝚛𝚢 𝚝𝚘𝚘𝚕𝚜 𝚑𝚎𝚛𝚎🥀",
                     "rowId": ".lst tools"
                   }, {
                     "title": "αυ∂ισ є∂ιтσя💃",
-                    "description": "",
+                    "description": "𝚊𝚞𝚍𝚒𝚘 𝚎𝚍𝚍𝚒𝚝𝚒𝚗𝚐 𝚝𝚘𝚘𝚕𝚜 𝚊𝚝 𝚑𝚎𝚛𝚎🥀",
                     "rowId": `.lst audio`
                   }, {
                     "title": "ƒυη💃",
-                    "description": "",
+                    "description": "𝚎𝚗𝚓𝚘𝚢 𝚠𝚒𝚝𝚑 𝚞𝚜🥀",
                     "rowId": ".lst fun"
                   },
                   {
                     "title": "gαмєѕ💃",
-                    "description": "",
+                    "description": "𝚜𝚒𝚖𝚙𝚕𝚎 𝚐𝚊𝚖𝚎𝚜 𝚊𝚝 𝚑𝚎𝚛𝚎🥀",
                     "rowId": ".lst game"
   
                   }, {
                     "title": "∂αтαвαѕє💃",
-                    "description": "",
+                    "description": "𝚊𝚜𝚒𝚊𝚝𝚊 𝚍𝚊𝚝𝚊𝚋𝚊𝚜𝚎🥀",
                     "rowId": ".lst database"
                   },{
                     "title": "σωηєя💃",
-                    "description": "",
+                    "description": "𝚖𝚛.𝚜𝚊𝚗𝚘𝚗(𝚃𝙷𝙸𝚂𝙰𝙽)",
                     "rowId": ".lst owner"
                   }, {
                     "title": "α∂мιη💃",
-                    "description": "",
+                    "description": "𝚊𝚍𝚖𝚒𝚗 𝚙𝚊𝚗𝚗𝚎𝚕🥀",
                     "rowId": ".lst admin"
                   }
                 ]
@@ -370,7 +370,7 @@ function clockString(ms) {
   return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')
 }
 function ucapan() {
-  const time = moment.tz('Asia/Kolkata').format('HH')
+  const time = moment.tz('Asia/Colombo').format('HH')
   res = "ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ  sʟᴇᴇᴘ ʟᴜᴠ ᴜ<3"
   if (time >= 4) {
     res = "ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ🥀"
