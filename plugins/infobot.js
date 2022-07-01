@@ -15,16 +15,16 @@ let handler = async (m, { conn, command, usedPrefix, text }) => {
   let userdaftar = Object.values(global.db.data.users).filter(user => user.registered == true).length
   let infonyacok = `
 ╭─── ${conn.user.name} 」
-│• Library : *Baileys-MD*
-│• Language : *Javascript*
-│• Database : *SQL*
-│• Version : *${version}*
-│• Developer : *${wm}*
-│• Runtime : *${runtime}*
-│• Prefix : *Multi Prefix 「 ${usedPrefix} 」*
-│• Mode : *${global.opts['self'] ? 'Self' : 'Public'}*
-│• User : *${usergakdaftar}*
-│• Registered : *${userdaftar}*
+│👹 Library : *Baileys-MD*
+│👹 Language : *Javascript*
+│👹 Database : *SQL*
+│👹 Version : *${version}*
+│👹 Developer : *${wm}*
+│👹 Runtime : *${runtime}*
+│👹 Prefix : *Multi Prefix 「 ${usedPrefix} 」*
+│👹 Mode : *${global.opts['self'] ? 'Self' : 'Public'}*
+│👹 User : *${usergakdaftar}*
+│👹 Registered : *${userdaftar}*
 
 `.trim()
 var as = `Date :${date}\nTime : ${a} (WIB)`
