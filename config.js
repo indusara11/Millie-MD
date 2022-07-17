@@ -19,7 +19,7 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user
 
 global.devx = 'false'
 
-global.owner = ["94766816809"]
+global.owner = ["94711870695"]
 global.APIs = { // API Prefix
 //======= name: 'https://website' ========//
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -44,10 +44,10 @@ global.APIKeys = { // APIKey Here
  
 global.ucpn = ''
 global.linkgc = 'https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb'
-global.linkig = 'https://www.instagram.com/mrsanon  '
+global.linkig = 'https://www.instagram.com/indusara11'
 global.linkyt = 'https://www.youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPd'
 global.linkfb = 'https://fb.watch/aYv0jAffA'
-global.git = 'https://github.com/mrsanon'
+global.git = 'https://github.com/indusara11'
 global.web1 = 'https://Thisan04.github.io/'
 global.url = 'https://chat.whatsapp.com/IfrEWJ30nUd3Cbi3uIvtIb'
 
