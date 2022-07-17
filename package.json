@@ -2,7 +2,6 @@
     "name": "millie-md",
     "version": "0.0.1",
     "description": "WhatsApp Bot Multi-Device",
-    "depecrated": false,
     "main": "index.js",
     "directories": {
         "lib": "lib",
@@ -10,9 +9,7 @@
         "plugins": "plugins"
     },
     "scripts": {
-        "start": "node index.js",
-        "test": "node test.js",
-        "test2": "nodemon index.js"
+        "start": "supervisor -s index.js"
     },
     "keywords": [
         "termux-whatsapp-bot",
@@ -25,7 +22,7 @@
     ],
     "homepage": "https://github.com/indusara11",
     "author": {
-        "name": "Neeraj"
+        "name": "Thisan"
     },
     "repository": {
         "type": "git",
@@ -92,6 +89,7 @@
         "wa-sticker-formatter": "^4.3.2",
         "xfarr-api": "^1.0.3",
         "yargs": "^17.2.1",
-        "yuzzu-api": "^1.0.2"
+        "yuzzu-api": "^1.0.2",
+        "supervisor": "^0.12.0"
     }
 }
