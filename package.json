@@ -23,16 +23,16 @@
         "wabot-aq",
         "millie-Md"
     ],
-    "homepage": "https://github.com/mrsanon1",
+    "homepage": "https://github.com/indusara11",
     "author": {
         "name": "Neeraj"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/mrsanon1.git"
+        "url": "git+https://github.com/indusara11.git"
     },
     "bugs": {
-        "url": "https://github.com/mrsanon1/issues"
+        "url": "https://github.com/indusara11/issues"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
