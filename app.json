@@ -2,7 +2,7 @@
   "name": "ASIATA-MD",
   "logo": "https://camo.githubusercontent.com/3ba5a023cf846f6c3f3c5587e0673cec48fe71bb764bbb6014267a02abc01df5/68747470733a2f2f74656c656772612e70682f66696c652f3735316261623361343635626265323530303934382e6a7067",
   "description": "WhatsApp Bot",
-  "repository": "https://github.com/mrsanon1/Millie-MD",
+  "repository": "https://github.com/indusara11/Millie-MD",
   "keywords": ["bot","whatsapp","whatsapp-bot"],
   "env": {
  "SESSION_ID": {
